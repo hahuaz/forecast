@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f9f9f9;
+}
+body * {
+	box-sizing: border-box;
+}
+
+.fade-enter {
+	opacity: 0;
+}
+.fade-exit {
+	opacity: 1;
+}
+.fade-enter-active {
+	opacity: 1;
+}
+.fade-exit-active {
+	opacity: 0;
+}
+.fade-enter-active,
+.fade-exit-active {
+	transition: opacity 500ms;
+}

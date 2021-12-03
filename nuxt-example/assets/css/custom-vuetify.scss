@@ -1,0 +1,7 @@
+// customize vuetify
+$text-field-label-active-transform: translateY(-14px) scale(0.75) !important;
+
+.v-label--active {
+  transform-origin: top left;
+}
+@import '~vuetify/src/styles/styles.sass';
